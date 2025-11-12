@@ -33,7 +33,15 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Firebase Functions env files (do not commit secrets)
+functions/.env
+functions/.env.*
+
 # typescript
 *.tsbuildinfo
 
 app-example
+
+# Firebase Functions build output
+functions/lib/
+!functions/lib/data/legislators-current.json
