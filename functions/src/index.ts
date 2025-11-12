@@ -121,11 +121,17 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
   const senUrl = `${base}?state=${encodeURIComponent(state)}&chamber=Senate&currentMember=true&limit=250&format=json&api_key=${API}`;
   const senResp = await fetch(senUrl);
   let senators: any[] = [];
+  // Log response status for diagnostics
+  try {
+    functions.logger.info('Congress.gov senator endpoint response', { ok: !!senResp.ok, status: (senResp as any).status, statusText: (senResp as any).statusText });
+  } catch (e) {
+    /* ignore logging errors */
+  }
   if (senResp.ok) {
     const senJson: any = await senResp.json();
     const allSens = senJson?.members || [];
     // Debug: log raw congress.gov senator payload size and a small sample to diagnose filtering issues
-    functions.logger.info('Congress.gov senators raw response', { rawCount: allSens.length, sample: allSens?.[0] ? Object.keys(allSens[0]) : null, sampleMember: allSens?.[0] ? { name: allSens[0].name, bioguide: allSens[0].bioguideId || allSens[0].bioguide_id } : null });
+    functions.logger.info('Congress.gov senators raw response', { rawCount: allSens.length, sampleKeys: allSens?.[0] ? Object.keys(allSens[0]) : null, sampleMember: allSens?.[0] ? { name: allSens[0].name, bioguide: allSens[0].bioguideId || allSens[0].bioguide_id } : null });
     // Filter by state field (can be 'state', 'stateCode', or nested in 'terms')
     senators = allSens.filter((m: any) => {
       const term = getCurrentChamberTerm(m, 'Senate');
@@ -164,8 +170,14 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
     const repUrl = `${base}?state=${encodeURIComponent(state)}&chamber=House&district=${encodeURIComponent(congressional)}&currentMember=true&limit=250&format=json&api_key=${API}`;
     const repResp = await fetch(repUrl);
     if (repResp.ok) {
+      try {
+        functions.logger.info('Congress.gov representative endpoint response', { ok: !!repResp.ok, status: (repResp as any).status, statusText: (repResp as any).statusText });
+      } catch (e) {
+        /* ignore */
+      }
       const repJson: any = await repResp.json();
       const allReps = repJson?.members || [];
+      functions.logger.info('Congress.gov representatives raw response', { rawCount: allReps.length, sampleKeys: allReps?.[0] ? Object.keys(allReps[0]) : null, sampleMember: allReps?.[0] ? { name: allReps[0].name, bioguide: allReps[0].bioguideId || allReps[0].bioguide_id } : null });
       house = allReps.filter((m: any) => {
         const term = getCurrentChamberTerm(m,'House of Representatives');
         const rawState = term?.state || term?.stateCode || m.state || m.stateCode;
