@@ -1,0 +1,4002 @@
+[
+  {
+    "name": {
+      "official_full": "Young, Todd"
+    },
+    "id": {
+      "bioguide": "Y000064"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Wyden, Ron"
+    },
+    "id": {
+      "bioguide": "W000779"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000779?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Warren, Elizabeth"
+    },
+    "id": {
+      "bioguide": "W000817"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000817?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Whitehouse, Sheldon"
+    },
+    "id": {
+      "bioguide": "W000802"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000802?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Welch, Peter"
+    },
+    "id": {
+      "bioguide": "W000800"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000800?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Wicker, Roger F."
+    },
+    "id": {
+      "bioguide": "W000437"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/W000437?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Warnock, Raphael G."
+    },
+    "id": {
+      "bioguide": "W000790"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000790?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Tuberville, Tommy"
+    },
+    "id": {
+      "bioguide": "T000278"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/T000278?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Warner, Mark R."
+    },
+    "id": {
+      "bioguide": "W000805"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000805?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Van Hollen, Chris"
+    },
+    "id": {
+      "bioguide": "V000128"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/V000128?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Smith, Tina"
+    },
+    "id": {
+      "bioguide": "S001203"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001203?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Tillis, Thomas"
+    },
+    "id": {
+      "bioguide": "T000476"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/T000476?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Sullivan, Dan"
+    },
+    "id": {
+      "bioguide": "S001198"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001198?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Thune, John"
+    },
+    "id": {
+      "bioguide": "T000250"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/T000250?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Sheehy, Tim"
+    },
+    "id": {
+      "bioguide": "S001232"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001232?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Scott, Rick"
+    },
+    "id": {
+      "bioguide": "S001217"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001217?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Slotkin, Elissa"
+    },
+    "id": {
+      "bioguide": "S001208"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001208?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Scott, Tim"
+    },
+    "id": {
+      "bioguide": "S001184"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001184?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Shaheen, Jeanne"
+    },
+    "id": {
+      "bioguide": "S001181"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001181?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Schmitt, Eric"
+    },
+    "id": {
+      "bioguide": "S001227"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001227?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Rounds, Mike"
+    },
+    "id": {
+      "bioguide": "R000605"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/R000605?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Schatz, Brian"
+    },
+    "id": {
+      "bioguide": "S001194"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001194?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Schumer, Charles E."
+    },
+    "id": {
+      "bioguide": "S000148"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S000148?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Sanders, Bernard"
+    },
+    "id": {
+      "bioguide": "S000033"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Independent",
+        "url": "https://api.congress.gov/v3/member/S000033?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Schiff, Adam B."
+    },
+    "id": {
+      "bioguide": "S001150"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001150?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ricketts, Pete"
+    },
+    "id": {
+      "bioguide": "R000618"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/R000618?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Rosen, Jacky"
+    },
+    "id": {
+      "bioguide": "R000608"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/R000608?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Paul, Rand"
+    },
+    "id": {
+      "bioguide": "P000603"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/P000603?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Peters, Gary C."
+    },
+    "id": {
+      "bioguide": "P000595"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/P000595?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Risch, James E."
+    },
+    "id": {
+      "bioguide": "R000584"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/R000584?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Reed, Jack"
+    },
+    "id": {
+      "bioguide": "R000122"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/R000122?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Padilla, Alex"
+    },
+    "id": {
+      "bioguide": "P000145"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/P000145?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ossoff, Jon"
+    },
+    "id": {
+      "bioguide": "O000174"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/O000174?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Mullin, Markwayne"
+    },
+    "id": {
+      "bioguide": "M001190"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001190?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Murphy, Christopher"
+    },
+    "id": {
+      "bioguide": "M001169"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001169?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Murray, Patty"
+    },
+    "id": {
+      "bioguide": "M001111"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001111?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Murkowski, Lisa"
+    },
+    "id": {
+      "bioguide": "M001153"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001153?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moody, Ashley"
+    },
+    "id": {
+      "bioguide": "M001244"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001244?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McCormick, David"
+    },
+    "id": {
+      "bioguide": "M001243"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001243?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moreno, Bernie"
+    },
+    "id": {
+      "bioguide": "M001242"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001242?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Merkley, Jeff"
+    },
+    "id": {
+      "bioguide": "M001176"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001176?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moran, Jerry"
+    },
+    "id": {
+      "bioguide": "M000934"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M000934?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McConnell, Mitch"
+    },
+    "id": {
+      "bioguide": "M000355"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M000355?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Marshall, Roger"
+    },
+    "id": {
+      "bioguide": "M001198"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001198?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Klobuchar, Amy"
+    },
+    "id": {
+      "bioguide": "K000367"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/K000367?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Lee, Mike"
+    },
+    "id": {
+      "bioguide": "L000577"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000577?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Lankford, James"
+    },
+    "id": {
+      "bioguide": "L000575"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000575?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Lummis, Cynthia M."
+    },
+    "id": {
+      "bioguide": "L000571"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000571?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Luján, Ben Ray"
+    },
+    "id": {
+      "bioguide": "L000570"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/L000570?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Markey, Edward J."
+    },
+    "id": {
+      "bioguide": "M000133"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M000133?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Justice, James C."
+    },
+    "id": {
+      "bioguide": "J000312"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/J000312?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kelly, Mark"
+    },
+    "id": {
+      "bioguide": "K000377"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/K000377?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kim, Andy"
+    },
+    "id": {
+      "bioguide": "K000394"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/K000394?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kennedy, John"
+    },
+    "id": {
+      "bioguide": "K000393"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/K000393?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "King, Angus S., Jr."
+    },
+    "id": {
+      "bioguide": "K000383"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Independent",
+        "url": "https://api.congress.gov/v3/member/K000383?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kaine, Tim"
+    },
+    "id": {
+      "bioguide": "K000384"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/K000384?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Johnson, Ron"
+    },
+    "id": {
+      "bioguide": "J000293"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/J000293?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Husted, Jon"
+    },
+    "id": {
+      "bioguide": "H001104"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001104?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hickenlooper, John W."
+    },
+    "id": {
+      "bioguide": "H000273"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/H000273?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hawley, Josh"
+    },
+    "id": {
+      "bioguide": "H001089"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001089?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hyde-Smith, Cindy"
+    },
+    "id": {
+      "bioguide": "H001079"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001079?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hoeven, John"
+    },
+    "id": {
+      "bioguide": "H001061"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001061?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hirono, Mazie K."
+    },
+    "id": {
+      "bioguide": "H001042"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/H001042?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Heinrich, Martin"
+    },
+    "id": {
+      "bioguide": "H001046"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/H001046?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hagerty, Bill"
+    },
+    "id": {
+      "bioguide": "H000601"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H000601?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hassan, Margaret Wood"
+    },
+    "id": {
+      "bioguide": "H001076"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/H001076?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Gallego, Ruben"
+    },
+    "id": {
+      "bioguide": "G000574"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000574?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Gillibrand, Kirsten E."
+    },
+    "id": {
+      "bioguide": "G000555"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000555?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Grassley, Chuck"
+    },
+    "id": {
+      "bioguide": "G000386"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/G000386?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Graham, Lindsey"
+    },
+    "id": {
+      "bioguide": "G000359"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/G000359?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fetterman, John"
+    },
+    "id": {
+      "bioguide": "F000479"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000479?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Curtis, John R."
+    },
+    "id": {
+      "bioguide": "C001114"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001114?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ernst, Joni"
+    },
+    "id": {
+      "bioguide": "E000295"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/E000295?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fischer, Deb"
+    },
+    "id": {
+      "bioguide": "F000463"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/F000463?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cruz, Ted"
+    },
+    "id": {
+      "bioguide": "C001098"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001098?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Daines, Steve"
+    },
+    "id": {
+      "bioguide": "D000618"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/D000618?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Duckworth, Tammy"
+    },
+    "id": {
+      "bioguide": "D000622"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000622?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Durbin, Richard J."
+    },
+    "id": {
+      "bioguide": "D000563"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000563?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cortez Masto, Catherine"
+    },
+    "id": {
+      "bioguide": "C001113"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C001113?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cramer, Kevin"
+    },
+    "id": {
+      "bioguide": "C001096"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001096?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cotton, Tom"
+    },
+    "id": {
+      "bioguide": "C001095"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001095?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Coons, Christopher A."
+    },
+    "id": {
+      "bioguide": "C001088"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C001088?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Collins, Susan M."
+    },
+    "id": {
+      "bioguide": "C001035"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001035?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cornyn, John"
+    },
+    "id": {
+      "bioguide": "C001056"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001056?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Crapo, Mike"
+    },
+    "id": {
+      "bioguide": "C000880"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C000880?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Britt, Katie Boyd"
+    },
+    "id": {
+      "bioguide": "B001319"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001319?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Budd, Ted"
+    },
+    "id": {
+      "bioguide": "B001305"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001305?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Booker, Cory A."
+    },
+    "id": {
+      "bioguide": "B001288"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001288?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cassidy, Bill"
+    },
+    "id": {
+      "bioguide": "C001075"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001075?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Boozman, John"
+    },
+    "id": {
+      "bioguide": "B001236"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001236?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Capito, Shelley Moore"
+    },
+    "id": {
+      "bioguide": "C001047"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001047?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cantwell, Maria"
+    },
+    "id": {
+      "bioguide": "C000127"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C000127?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Banks, Jim"
+    },
+    "id": {
+      "bioguide": "B001299"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001299?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Blunt Rochester, Lisa"
+    },
+    "id": {
+      "bioguide": "B001303"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001303?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Blumenthal, Richard"
+    },
+    "id": {
+      "bioguide": "B001277"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001277?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Barrasso, John"
+    },
+    "id": {
+      "bioguide": "B001261"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001261?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Bennet, Michael F."
+    },
+    "id": {
+      "bioguide": "B001267"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001267?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Baldwin, Tammy"
+    },
+    "id": {
+      "bioguide": "B001230"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001230?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Blackburn, Marsha"
+    },
+    "id": {
+      "bioguide": "B001243"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001243?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Alsobrooks, Angela D."
+    },
+    "id": {
+      "bioguide": "A000382"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/A000382?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Whitesides, George"
+    },
+    "id": {
+      "bioguide": "W000830"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000830?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fine, Randy"
+    },
+    "id": {
+      "bioguide": "F000484"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/F000484?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Patronis, Jimmy"
+    },
+    "id": {
+      "bioguide": "P000622"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/P000622?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Vindman, Eugene Simon"
+    },
+    "id": {
+      "bioguide": "V000138"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/V000138?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Taylor, David J."
+    },
+    "id": {
+      "bioguide": "T000490"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/T000490?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Subramanyam, Suhas"
+    },
+    "id": {
+      "bioguide": "S001230"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001230?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Shreve, Jefferson"
+    },
+    "id": {
+      "bioguide": "S001229"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001229?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Schmidt, Derek"
+    },
+    "id": {
+      "bioguide": "S001228"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001228?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Riley, Josh"
+    },
+    "id": {
+      "bioguide": "R000622"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/R000622?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Pou, Nellie"
+    },
+    "id": {
+      "bioguide": "P000621"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/P000621?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Olszewski, Johnny"
+    },
+    "id": {
+      "bioguide": "O000176"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/O000176?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McDowell, Addison P."
+    },
+    "id": {
+      "bioguide": "M001240"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001240?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McGuire, John J."
+    },
+    "id": {
+      "bioguide": "M001239"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001239?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McDonald Rivet, Kristen"
+    },
+    "id": {
+      "bioguide": "M001237"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001237?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moore, Tim"
+    },
+    "id": {
+      "bioguide": "M001236"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001236?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moore, Riley M."
+    },
+    "id": {
+      "bioguide": "M001235"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001235?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Messmer, Mark B."
+    },
+    "id": {
+      "bioguide": "M001233"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001233?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McClain Delaney, April"
+    },
+    "id": {
+      "bioguide": "M001232"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001232?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Mannion, John W."
+    },
+    "id": {
+      "bioguide": "M001231"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001231?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Mackenzie, Ryan"
+    },
+    "id": {
+      "bioguide": "M001230"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001230?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Latimer, George"
+    },
+    "id": {
+      "bioguide": "L000606"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/L000606?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Knott, Brad"
+    },
+    "id": {
+      "bioguide": "K000405"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/K000405?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kennedy, Mike"
+    },
+    "id": {
+      "bioguide": "K000403"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/K000403?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Johnson, Julie"
+    },
+    "id": {
+      "bioguide": "J000310"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/J000310?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hernández, Pablo Jose"
+    },
+    "id": {
+      "bioguide": "H001103"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/H001103?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Harris, Mark"
+    },
+    "id": {
+      "bioguide": "H001102"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001102?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Harrigan, Pat"
+    },
+    "id": {
+      "bioguide": "H001101"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001101?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Goodlander, Maggie"
+    },
+    "id": {
+      "bioguide": "G000604"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000604?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Gill, Brandon"
+    },
+    "id": {
+      "bioguide": "G000603"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/G000603?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Gillen, Laura"
+    },
+    "id": {
+      "bioguide": "G000602"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000602?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Goldman, Craig A."
+    },
+    "id": {
+      "bioguide": "G000601"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/G000601?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Friedman, Laura"
+    },
+    "id": {
+      "bioguide": "F000483"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000483?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fedorchak, Julie"
+    },
+    "id": {
+      "bioguide": "F000482"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/F000482?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Elfreth, Sarah"
+    },
+    "id": {
+      "bioguide": "E000301"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/E000301?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Dexter, Maxine"
+    },
+    "id": {
+      "bioguide": "D000635"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000635?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Downing, Troy"
+    },
+    "id": {
+      "bioguide": "D000634"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/D000634?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Conaway, Herbert C."
+    },
+    "id": {
+      "bioguide": "C001136"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C001136?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Bresnahan, Robert P."
+    },
+    "id": {
+      "bioguide": "B001327"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001327?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Bynum, Janelle S."
+    },
+    "id": {
+      "bioguide": "B001326"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001326?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Biggs, Sheri"
+    },
+    "id": {
+      "bioguide": "B001325"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001325?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Baumgartner, Michael"
+    },
+    "id": {
+      "bioguide": "B001322"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001322?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Barrett, Tom"
+    },
+    "id": {
+      "bioguide": "B001321"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001321?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McCormick, Richard"
+    },
+    "id": {
+      "bioguide": "M001218"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001218?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Stutzman, Marlin A."
+    },
+    "id": {
+      "bioguide": "S001188"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001188?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fields, Cleo"
+    },
+    "id": {
+      "bioguide": "F000110"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000110?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Onder, Robert F."
+    },
+    "id": {
+      "bioguide": "O000177"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/O000177?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McBride, Sarah"
+    },
+    "id": {
+      "bioguide": "M001238"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001238?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Morrison, Kelly"
+    },
+    "id": {
+      "bioguide": "M001234"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001234?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "King-Hinds, Kimberlyn"
+    },
+    "id": {
+      "bioguide": "K000404"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/K000404?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Jack, Brian"
+    },
+    "id": {
+      "bioguide": "J000311"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/J000311?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Haridopolos, Mike"
+    },
+    "id": {
+      "bioguide": "H001099"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001099?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Figures, Shomari"
+    },
+    "id": {
+      "bioguide": "F000481"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000481?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Evans, Gabe"
+    },
+    "id": {
+      "bioguide": "E000300"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/E000300?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Crank, Jeff"
+    },
+    "id": {
+      "bioguide": "C001137"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001137?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Bell, Wesley"
+    },
+    "id": {
+      "bioguide": "B001324"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001324?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Wied, Tony"
+    },
+    "id": {
+      "bioguide": "W000829"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/W000829?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McIver, LaMonica"
+    },
+    "id": {
+      "bioguide": "M001229"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001229?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Rulli, Michael A."
+    },
+    "id": {
+      "bioguide": "R000619"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/R000619?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fong, Vince"
+    },
+    "id": {
+      "bioguide": "F000480"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/F000480?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kennedy, Timothy M."
+    },
+    "id": {
+      "bioguide": "K000402"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/K000402?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Maloy, Celeste"
+    },
+    "id": {
+      "bioguide": "M001228"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001228?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Amo, Gabe"
+    },
+    "id": {
+      "bioguide": "A000380"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/A000380?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McClellan, Jennifer L."
+    },
+    "id": {
+      "bioguide": "M001227"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001227?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Van Orden, Derrick"
+    },
+    "id": {
+      "bioguide": "V000135"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/V000135?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Self, Keith"
+    },
+    "id": {
+      "bioguide": "S001224"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/S001224?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Perez, Marie Gluesenkamp"
+    },
+    "id": {
+      "bioguide": "G000600"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000600?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ogles, Andrew"
+    },
+    "id": {
+      "bioguide": "O000175"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/O000175?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moran, Nathaniel"
+    },
+    "id": {
+      "bioguide": "M001224"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001224?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Magaziner, Seth"
+    },
+    "id": {
+      "bioguide": "M001223"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001223?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Luttrell, Morgan"
+    },
+    "id": {
+      "bioguide": "L000603"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000603?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Lee, Summer L."
+    },
+    "id": {
+      "bioguide": "L000602"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/L000602?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kiggans, Jennifer A."
+    },
+    "id": {
+      "bioguide": "K000399"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/K000399?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hunt, Wesley"
+    },
+    "id": {
+      "bioguide": "H001095"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001095?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hageman, Harriet M."
+    },
+    "id": {
+      "bioguide": "H001096"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001096?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Fry, Russell"
+    },
+    "id": {
+      "bioguide": "F000478"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/F000478?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Deluzio, Christopher R."
+    },
+    "id": {
+      "bioguide": "D000530"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000530?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "De La Cruz, Monica"
+    },
+    "id": {
+      "bioguide": "D000594"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/D000594?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Crockett, Jasmine"
+    },
+    "id": {
+      "bioguide": "C001130"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C001130?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Casar, Greg"
+    },
+    "id": {
+      "bioguide": "C001131"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C001131?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Balint, Becca"
+    },
+    "id": {
+      "bioguide": "B001318"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001318?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moore, Barry"
+    },
+    "id": {
+      "bioguide": "M001212"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001212?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Greene, Marjorie Taylor"
+    },
+    "id": {
+      "bioguide": "G000596"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/G000596?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Franklin, Scott"
+    },
+    "id": {
+      "bioguide": "F000472"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/F000472?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Boebert, Lauren"
+    },
+    "id": {
+      "bioguide": "B000825"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B000825?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Miller, Carol D."
+    },
+    "id": {
+      "bioguide": "M001205"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001205?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McBath, Lucy"
+    },
+    "id": {
+      "bioguide": "M001208"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001208?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Cisneros, Gilbert Ray"
+    },
+    "id": {
+      "bioguide": "C001123"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/C001123?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Scanlon, Mary Gay"
+    },
+    "id": {
+      "bioguide": "S001205"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001205?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Gonzalez, Vicente"
+    },
+    "id": {
+      "bioguide": "G000581"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000581?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Suozzi, Thomas R."
+    },
+    "id": {
+      "bioguide": "S001201"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001201?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Green, Al"
+    },
+    "id": {
+      "bioguide": "G000553"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000553?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Doggett, Lloyd"
+    },
+    "id": {
+      "bioguide": "D000399"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000399?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Vasquez, Gabe"
+    },
+    "id": {
+      "bioguide": "V000136"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/V000136?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Tokuda, Jill N."
+    },
+    "id": {
+      "bioguide": "T000487"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/T000487?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Thanedar, Shri"
+    },
+    "id": {
+      "bioguide": "T000488"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/T000488?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Sykes, Emilia Strong"
+    },
+    "id": {
+      "bioguide": "S001223"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001223?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Sorensen, Eric"
+    },
+    "id": {
+      "bioguide": "S001225"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001225?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Scholten, Hillary J."
+    },
+    "id": {
+      "bioguide": "S001221"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001221?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Salinas, Andrea"
+    },
+    "id": {
+      "bioguide": "S001226"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/S001226?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ramirez, Delia C."
+    },
+    "id": {
+      "bioguide": "R000617"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/R000617?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Nunn, Zachary"
+    },
+    "id": {
+      "bioguide": "N000193"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/N000193?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moylan, James C."
+    },
+    "id": {
+      "bioguide": "M001219"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001219?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moskowitz, Jared"
+    },
+    "id": {
+      "bioguide": "M001217"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001217?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Mills, Cory"
+    },
+    "id": {
+      "bioguide": "M001216"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001216?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Miller, Max L."
+    },
+    "id": {
+      "bioguide": "M001222"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001222?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Menendez, Robert"
+    },
+    "id": {
+      "bioguide": "M001226"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001226?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McGarvey, Morgan"
+    },
+    "id": {
+      "bioguide": "M001220"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/M001220?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Luna, Anna Paulina"
+    },
+    "id": {
+      "bioguide": "L000596"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000596?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Lee, Laurel M."
+    },
+    "id": {
+      "bioguide": "L000597"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000597?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Lawler, Michael"
+    },
+    "id": {
+      "bioguide": "L000599"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000599?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Langworthy, Nicholas A."
+    },
+    "id": {
+      "bioguide": "L000600"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000600?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Landsman, Greg"
+    },
+    "id": {
+      "bioguide": "L000601"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/L000601?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "LaLota, Nick"
+    },
+    "id": {
+      "bioguide": "L000598"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000598?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Kean, Thomas H."
+    },
+    "id": {
+      "bioguide": "K000398"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/K000398?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "James, John"
+    },
+    "id": {
+      "bioguide": "J000307"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/J000307?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Jackson, Jonathan L."
+    },
+    "id": {
+      "bioguide": "J000309"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/J000309?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ivey, Glenn"
+    },
+    "id": {
+      "bioguide": "I000058"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/I000058?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hoyle, Val T."
+    },
+    "id": {
+      "bioguide": "H001094"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/H001094?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Houchin, Erin"
+    },
+    "id": {
+      "bioguide": "H001093"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001093?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Goldman, Daniel S."
+    },
+    "id": {
+      "bioguide": "G000599"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/G000599?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Frost, Maxwell"
+    },
+    "id": {
+      "bioguide": "F000476"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000476?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Foushee, Valerie P."
+    },
+    "id": {
+      "bioguide": "F000477"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000477?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ezell, Mike"
+    },
+    "id": {
+      "bioguide": "E000235"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/E000235?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Edwards, Chuck"
+    },
+    "id": {
+      "bioguide": "E000246"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/E000246?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Davis, Donald G."
+    },
+    "id": {
+      "bioguide": "D000230"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000230?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Collins, Mike"
+    },
+    "id": {
+      "bioguide": "C001129"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/C001129?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Burlison, Eric"
+    },
+    "id": {
+      "bioguide": "B001316"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001316?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Budzinski, Nikki"
+    },
+    "id": {
+      "bioguide": "B001315"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/B001315?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Brecheen, Josh"
+    },
+    "id": {
+      "bioguide": "B001317"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/B001317?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Alford, Mark"
+    },
+    "id": {
+      "bioguide": "A000379"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/A000379?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Ryan, Patrick"
+    },
+    "id": {
+      "bioguide": "R000579"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/R000579?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Miller-Meeks, Mariannette"
+    },
+    "id": {
+      "bioguide": "M001215"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001215?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "McClain, Lisa C."
+    },
+    "id": {
+      "bioguide": "M001136"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001136?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hinson, Ashley"
+    },
+    "id": {
+      "bioguide": "H001091"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001091?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Gimenez, Carlos A."
+    },
+    "id": {
+      "bioguide": "G000593"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/G000593?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Tlaib, Rashida"
+    },
+    "id": {
+      "bioguide": "T000481"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/T000481?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Tenney, Claudia"
+    },
+    "id": {
+      "bioguide": "T000478"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/T000478?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Mast, Brian J."
+    },
+    "id": {
+      "bioguide": "M001199"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001199?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Rutherford, John H."
+    },
+    "id": {
+      "bioguide": "R000609"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/R000609?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "LaHood, Darin"
+    },
+    "id": {
+      "bioguide": "L000585"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/L000585?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Zinke, Ryan K."
+    },
+    "id": {
+      "bioguide": "Z000018"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/Z000018?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Dingell, Debbie"
+    },
+    "id": {
+      "bioguide": "D000624"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/D000624?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Moolenaar, John R."
+    },
+    "id": {
+      "bioguide": "M001194"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/M001194?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Hudson, Richard"
+    },
+    "id": {
+      "bioguide": "H001067"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001067?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Frankel, Lois"
+    },
+    "id": {
+      "bioguide": "F000462"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/F000462?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Huizenga, Bill"
+    },
+    "id": {
+      "bioguide": "H001058"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/H001058?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Walberg, Tim"
+    },
+    "id": {
+      "bioguide": "W000798"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/W000798?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Nadler, Jerrold"
+    },
+    "id": {
+      "bioguide": "N000002"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/N000002?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Wasserman Schultz, Debbie"
+    },
+    "id": {
+      "bioguide": "W000797"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Democratic",
+        "url": "https://api.congress.gov/v3/member/W000797?format=json"
+      }
+    ]
+  },
+  {
+    "name": {
+      "official_full": "Diaz-Balart, Mario"
+    },
+    "id": {
+      "bioguide": "D000600"
+    },
+    "roles": [
+      {
+        "type": "senator",
+        "state": "AL",
+        "party": "Republican",
+        "url": "https://api.congress.gov/v3/member/D000600?format=json"
+      }
+    ]
+  }
+]
