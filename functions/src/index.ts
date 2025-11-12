@@ -124,6 +124,8 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
   if (senResp.ok) {
     const senJson: any = await senResp.json();
     const allSens = senJson?.members || [];
+    // Debug: log raw congress.gov senator payload size and a small sample to diagnose filtering issues
+    functions.logger.info('Congress.gov senators raw response', { rawCount: allSens.length, sample: allSens?.[0] ? Object.keys(allSens[0]) : null, sampleMember: allSens?.[0] ? { name: allSens[0].name, bioguide: allSens[0].bioguideId || allSens[0].bioguide_id } : null });
     // Filter by state field (can be 'state', 'stateCode', or nested in 'terms')
     senators = allSens.filter((m: any) => {
       const term = getCurrentChamberTerm(m, 'Senate');
