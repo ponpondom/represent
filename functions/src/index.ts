@@ -275,7 +275,7 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
       party: s.partyName || s.party,
       phones: s.phone ? [s.phone] : undefined,
       urls: s.url ? [s.url] : undefined,
-      photoUrl: s.bioguideId ? `https://theunitedstates.io/images/congress/225x275/${s.bioguideId}.jpg` : undefined,
+      photoUrl: s.bioguideId ? `https://bioguide.congress.gov/bioguide/photo/${s.bioguideId.charAt(0)}/${s.bioguideId}.jpg` : undefined,
     });
     if (id) seenIds.add(id);
     offices.push({
@@ -295,7 +295,7 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
       party: r.partyName || r.party,
       phones: r.phone ? [r.phone] : undefined,
       urls: r.url ? [r.url] : undefined,
-      photoUrl: r.bioguideId ? `https://theunitedstates.io/images/congress/225x275/${r.bioguideId}.jpg` : undefined,
+      photoUrl: r.bioguideId ? `https://bioguide.congress.gov/bioguide/photo/${r.bioguideId.charAt(0)}/${r.bioguideId}.jpg` : undefined,
     });
     if (id) seenIds.add(id);
     offices.push({
@@ -415,7 +415,7 @@ function mapFederalToCivic(senators: any[], house: any[], state: string, congres
       party: s.partyName || s.party,
       phones: s.phone ? [s.phone] : undefined,
       urls: s.url ? [s.url] : undefined,
-      photoUrl: s.bioguideId ? `https://theunitedstates.io/images/congress/225x275/${s.bioguideId}.jpg` : undefined,
+      photoUrl: s.bioguideId ? `https://bioguide.congress.gov/bioguide/photo/${s.bioguideId.charAt(0)}/${s.bioguideId}.jpg` : undefined,
     });
     offices.push({
       name: 'United States Senator',
@@ -431,7 +431,7 @@ function mapFederalToCivic(senators: any[], house: any[], state: string, congres
       party: r.partyName || r.party,
       phones: r.phone ? [r.phone] : undefined,
       urls: r.url ? [r.url] : undefined,
-      photoUrl: r.bioguideId ? `https://theunitedstates.io/images/congress/225x275/${r.bioguideId}.jpg` : undefined,
+      photoUrl: r.bioguideId ? `https://bioguide.congress.gov/bioguide/photo/${r.bioguideId.charAt(0)}/${r.bioguideId}.jpg` : undefined,
     });
     offices.push({
       name: 'United States Representative',
@@ -511,7 +511,7 @@ async function fetchStateFromOpenStates(lat: number, lng: number, state: string,
       party: p.party || p.current_party || p.current_party_affiliations?.[0]?.name,
       phones: p.offices?.[0]?.voice ? [p.offices?.[0]?.voice] : undefined,
       urls: p.links?.[0]?.url ? [p.links?.[0]?.url] : undefined,
-      photoUrl: p.image || undefined,
+      photoUrl: (p.image && !p.image.includes('{') && !p.image.includes('%7B')) ? p.image : undefined,
     });
     offices.push({
       name: officeName,
