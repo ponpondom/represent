@@ -15,7 +15,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/440px-Donald_Trump_official_portrait.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg',
   },
   {
     office: 'Vice President of the United States',
@@ -23,7 +23,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/J._D._Vance_Official_Portrait.jpg/440px-J._D._Vance_Official_Portrait.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/J._D._Vance_Official_Portrait.jpg',
   },
 ];
 
@@ -34,8 +34,8 @@ const stateGovernors: Record<string, { governor: string; ltGovernor: string; par
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
-    governorPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gov._JB_Pritzker.jpg/440px-Gov._JB_Pritzker.jpg',
-    ltGovernorPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Juliana_Stratton_in_2018.jpg/440px-Juliana_Stratton_in_2018.jpg',
+    governorPhoto: 'https://upload.wikimedia.org/wikipedia/commons/d/d1/Gov._JB_Pritzker.jpg',
+    ltGovernorPhoto: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Juliana_Stratton_in_2018.jpg',
   },
   // Add more states as needed
 };
