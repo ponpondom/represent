@@ -1,39 +1,12 @@
 ﻿import { useAuth } from '@/providers/AuthProvider';
 import { db } from '@/providers/firebase';
+import { getRepresentativesByAddress, type Representative } from '@/services/civic';
 import { LinearGradient } from 'expo-linear-gradient';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-interface Representative {
-  name: string;
-  party?: string;
-  phones?: string[];
-  urls?: string[];
-  photoUrl?: string;
-  office: string;
-}
-
-// Mock representatives data for now - will be replaced with proper API later
-const getMockRepresentatives = (state: string): Representative[] => {
-  return [
-    {
-      name: 'Coming Soon',
-      office: 'U.S. Senator',
-      party: 'TBD',
-    },
-    {
-      name: 'Coming Soon',
-      office: 'U.S. Senator',
-      party: 'TBD',
-    },
-    {
-      name: 'Coming Soon',
-      office: 'U.S. Representative',
-      party: 'TBD',
-    },
-  ];
-};
+// Replacing mock data with real Google Civic API integration
 
 export default function MyRepsScreen() {
   const { user } = useAuth();
@@ -41,6 +14,7 @@ export default function MyRepsScreen() {
   const [representatives, setRepresentatives] = useState<Representative[]>([]);
   const [address, setAddress] = useState('');
   const [error, setError] = useState('');
+  const [normalizedAddress, setNormalizedAddress] = useState<string | undefined>(undefined);
 
   useEffect(() => {
     loadRepresentatives();
@@ -65,10 +39,9 @@ export default function MyRepsScreen() {
       const fullAddress = `${profile.address}, ${profile.city}, ${profile.state} ${profile.zipCode}`;
       setAddress(fullAddress);
 
-      // Using mock data for now - Google Civic API requires OAuth which is complex for mobile
-      // TODO: Implement proper API integration with OAuth or alternative service
-      const reps = getMockRepresentatives(profile.state);
-      
+      // Fetch representatives from Google Civic API
+      const { representatives: reps, normalizedAddress } = await getRepresentativesByAddress(fullAddress);
+      setNormalizedAddress(normalizedAddress);
       setRepresentatives(reps);
       setError('');
     } catch (err: any) {
@@ -93,7 +66,9 @@ export default function MyRepsScreen() {
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <Text style={styles.heading}>REPRESENTATIVES</Text>
 
-        {address && <Text style={styles.address}>For: {address}</Text>}
+        {!!(normalizedAddress || address) && (
+          <Text style={styles.address}>For: {normalizedAddress || address}</Text>
+        )}
 
         {loading ? (
           <View style={styles.loadingContainer}>

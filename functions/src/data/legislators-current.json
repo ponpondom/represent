@@ -8,10 +8,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -24,10 +24,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000779?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -40,10 +40,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000817?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -56,10 +56,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000802?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -72,10 +72,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000800?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -88,10 +88,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/W000437?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -104,10 +104,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000790?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -120,10 +120,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/T000278?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -136,10 +136,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000805?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -152,10 +152,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/V000128?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -168,10 +168,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001203?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -184,10 +184,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/T000476?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -200,10 +200,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001198?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -216,10 +216,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/T000250?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -232,10 +232,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001232?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -248,10 +248,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001217?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -264,10 +264,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001208?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -280,10 +280,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001184?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -296,10 +296,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001181?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -312,10 +312,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001227?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -328,10 +328,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/R000605?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -344,10 +344,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001194?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -360,10 +360,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S000148?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -376,10 +376,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Independent",
-        "url": "https://api.congress.gov/v3/member/S000033?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -392,10 +392,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001150?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -408,10 +408,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/R000618?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -424,10 +424,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/R000608?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -440,10 +440,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/P000603?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -456,10 +456,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/P000595?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -472,10 +472,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/R000584?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -488,10 +488,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/R000122?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -504,10 +504,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/P000145?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -520,10 +520,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/O000174?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -536,10 +536,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001190?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -552,10 +552,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001169?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -568,10 +568,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001111?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -584,10 +584,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001153?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -600,10 +600,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001244?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -616,10 +616,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001243?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -632,10 +632,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001242?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -648,10 +648,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001176?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -664,10 +664,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M000934?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -680,10 +680,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M000355?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -696,10 +696,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001198?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -712,10 +712,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/K000367?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -728,10 +728,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000577?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -744,10 +744,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000575?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -760,10 +760,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000571?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -776,10 +776,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/L000570?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -792,10 +792,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M000133?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -808,10 +808,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/J000312?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -824,10 +824,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/K000377?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -840,10 +840,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/K000394?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -856,10 +856,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/K000393?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -872,10 +872,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Independent",
-        "url": "https://api.congress.gov/v3/member/K000383?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -888,10 +888,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/K000384?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -904,10 +904,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/J000293?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -920,10 +920,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001104?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -936,10 +936,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/H000273?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -952,10 +952,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001089?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -968,10 +968,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001079?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -984,10 +984,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001061?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1000,10 +1000,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/H001042?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1016,10 +1016,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/H001046?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1032,10 +1032,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H000601?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1048,10 +1048,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/H001076?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1064,10 +1064,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000574?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1080,10 +1080,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000555?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1096,10 +1096,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/G000386?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1112,10 +1112,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/G000359?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1128,10 +1128,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000479?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1144,10 +1144,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001114?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1160,10 +1160,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/E000295?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1176,10 +1176,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/F000463?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1192,10 +1192,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001098?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1208,10 +1208,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/D000618?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1224,10 +1224,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000622?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1240,10 +1240,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000563?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1256,10 +1256,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C001113?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1272,10 +1272,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001096?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1288,10 +1288,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001095?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1304,10 +1304,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C001088?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1320,10 +1320,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001035?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1336,10 +1336,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001056?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1352,10 +1352,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C000880?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1368,10 +1368,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001319?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1384,10 +1384,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001305?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1400,10 +1400,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001288?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1416,10 +1416,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001075?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1432,10 +1432,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001236?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1448,10 +1448,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001047?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1464,10 +1464,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C000127?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1480,10 +1480,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001299?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1496,10 +1496,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001303?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1512,10 +1512,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001277?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1528,10 +1528,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001261?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1544,10 +1544,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001267?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1560,10 +1560,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001230?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1576,10 +1576,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001243?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1592,10 +1592,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/A000382?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1608,10 +1608,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000830?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1624,10 +1624,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/F000484?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1640,10 +1640,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/P000622?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1656,10 +1656,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/V000138?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1672,10 +1672,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/T000490?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1688,10 +1688,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001230?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1704,10 +1704,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001229?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1720,10 +1720,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001228?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1736,10 +1736,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/R000622?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1752,10 +1752,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/P000621?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1768,10 +1768,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/O000176?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1784,10 +1784,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001240?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1800,10 +1800,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001239?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1816,10 +1816,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001237?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1832,10 +1832,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001236?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1848,10 +1848,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001235?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1864,10 +1864,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001233?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1880,10 +1880,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001232?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1896,10 +1896,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001231?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1912,10 +1912,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001230?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1928,10 +1928,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/L000606?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1944,10 +1944,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/K000405?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1960,10 +1960,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/K000403?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1976,10 +1976,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/J000310?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -1992,10 +1992,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/H001103?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2008,10 +2008,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001102?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2024,10 +2024,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001101?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2040,10 +2040,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000604?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2056,10 +2056,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/G000603?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2072,10 +2072,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000602?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2088,10 +2088,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/G000601?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2104,10 +2104,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000483?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2120,10 +2120,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/F000482?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2136,10 +2136,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/E000301?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2152,10 +2152,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000635?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2168,10 +2168,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/D000634?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2184,10 +2184,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C001136?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2200,10 +2200,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001327?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2216,10 +2216,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001326?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2232,10 +2232,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001325?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2248,10 +2248,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001322?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2264,10 +2264,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001321?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2280,10 +2280,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001218?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2296,10 +2296,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001188?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2312,10 +2312,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000110?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2328,10 +2328,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/O000177?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2344,10 +2344,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001238?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2360,10 +2360,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001234?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2376,10 +2376,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/K000404?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2392,10 +2392,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/J000311?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2408,10 +2408,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001099?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2424,10 +2424,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000481?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2440,10 +2440,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/E000300?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2456,10 +2456,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001137?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2472,10 +2472,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001324?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2488,10 +2488,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/W000829?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2504,10 +2504,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001229?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2520,10 +2520,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/R000619?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2536,10 +2536,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/F000480?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2552,10 +2552,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/K000402?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2568,10 +2568,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001228?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2584,10 +2584,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/A000380?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2600,10 +2600,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001227?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2616,10 +2616,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/V000135?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2632,10 +2632,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/S001224?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2648,10 +2648,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000600?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2664,10 +2664,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/O000175?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2680,10 +2680,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001224?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2696,10 +2696,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001223?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2712,10 +2712,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000603?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2728,10 +2728,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/L000602?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2744,10 +2744,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/K000399?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2760,10 +2760,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001095?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2776,10 +2776,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001096?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2792,10 +2792,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/F000478?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2808,10 +2808,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000530?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2824,10 +2824,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/D000594?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2840,10 +2840,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C001130?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2856,10 +2856,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C001131?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2872,10 +2872,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001318?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2888,10 +2888,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001212?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2904,10 +2904,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/G000596?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2920,10 +2920,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/F000472?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2936,10 +2936,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B000825?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2952,10 +2952,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001205?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2968,10 +2968,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001208?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -2984,10 +2984,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/C001123?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3000,10 +3000,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001205?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3016,10 +3016,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000581?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3032,10 +3032,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001201?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3048,10 +3048,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000553?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3064,10 +3064,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000399?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3080,10 +3080,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/V000136?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3096,10 +3096,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/T000487?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3112,10 +3112,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/T000488?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3128,10 +3128,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001223?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3144,10 +3144,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001225?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3160,10 +3160,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001221?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3176,10 +3176,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/S001226?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3192,10 +3192,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/R000617?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3208,10 +3208,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/N000193?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3224,10 +3224,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001219?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3240,10 +3240,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001217?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3256,10 +3256,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001216?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3272,10 +3272,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001222?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3288,10 +3288,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001226?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3304,10 +3304,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/M001220?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3320,10 +3320,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000596?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3336,10 +3336,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000597?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3352,10 +3352,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000599?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3368,10 +3368,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000600?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3384,10 +3384,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/L000601?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3400,10 +3400,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000598?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3416,10 +3416,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/K000398?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3432,10 +3432,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/J000307?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3448,10 +3448,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/J000309?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3464,10 +3464,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/I000058?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3480,10 +3480,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/H001094?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3496,10 +3496,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001093?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3512,10 +3512,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/G000599?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3528,10 +3528,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000476?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3544,10 +3544,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000477?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3560,10 +3560,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/E000235?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3576,10 +3576,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/E000246?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3592,10 +3592,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000230?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3608,10 +3608,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/C001129?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3624,10 +3624,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001316?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3640,10 +3640,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/B001315?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3656,10 +3656,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/B001317?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3672,10 +3672,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/A000379?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3688,10 +3688,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/R000579?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3704,10 +3704,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001215?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3720,10 +3720,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001136?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3736,10 +3736,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001091?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3752,10 +3752,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/G000593?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3768,10 +3768,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/T000481?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3784,10 +3784,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/T000478?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3800,10 +3800,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001199?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3816,10 +3816,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/R000609?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3832,10 +3832,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/L000585?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3848,10 +3848,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/Z000018?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3864,10 +3864,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/D000624?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3880,10 +3880,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/M001194?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3896,10 +3896,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001067?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3912,10 +3912,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/F000462?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3928,10 +3928,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/H001058?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3944,10 +3944,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/W000798?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3960,10 +3960,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/N000002?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3976,10 +3976,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Democratic",
-        "url": "https://api.congress.gov/v3/member/W000797?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   },
@@ -3992,10 +3992,10 @@
     },
     "roles": [
       {
-        "type": "senator",
-        "state": "AL",
-        "party": "Republican",
-        "url": "https://api.congress.gov/v3/member/D000600?format=json"
+        "type": "representative"
+      },
+      {
+        "type": "senator"
       }
     ]
   }

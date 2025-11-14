@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import * as functions from 'firebase-functions';
 import * as fs from 'fs';
+import { google } from 'googleapis';
 import * as path from 'path';
 
 // Environment variables: set in functions/.env
@@ -114,7 +115,46 @@ async function geocodeWithCensus(address: string): Promise<GeoResult | null> {
 }
 
 async function fetchFederalFromCongressGov(state: string, congressional?: string) {
-  const API = requireEnv('CONGRESS_API_KEY');
+  // Do not log secret values. Instead log whether the secret made it into process.env
+  const apiEnv = (process.env.CONGRESS_API_KEY || '').trim();
+  try {
+    functions.logger.info('CONGRESS_API_KEY env present', { present: !!apiEnv });
+  } catch (e) { /* ignore logging errors */ }
+  if (!apiEnv) {
+    // If the env var isn't present, attempt a safe Secret Manager access-check to
+    // help diagnose whether the runtime service account can reach the secret.
+    try {
+      const ok = await testSecretManagerAccess('CONGRESS_API_KEY');
+      if (ok) {
+        // If Secret Manager access works but the env var wasn't injected for
+        // some reason, attempt to read the secret value directly and use it as
+        // a last-resort fallback. We do not log the secret value.
+        try {
+          const secretVal = await getSecretValue('CONGRESS_API_KEY');
+          functions.logger.info('Direct secret read attempt', { gotValue: !!secretVal, valueLength: secretVal?.length || 0 });
+          if (secretVal && secretVal.trim()) {
+            // Use the fetched secret as the API key
+            (process.env as any).CONGRESS_API_KEY = secretVal.trim();
+            functions.logger.info('Recovered CONGRESS_API_KEY from Secret Manager', { method: 'direct_access' });
+            // continue execution; apiEnv will be set below
+          } else {
+            functions.logger.warn('Direct secret read returned null or empty');
+          }
+        } catch (e) {
+          functions.logger.warn('Direct secret read failed', { error: (e as any)?.message });
+        }
+      }
+    } catch (e) {
+      /* continue to throw below; testSecretManagerAccess logs the diagnostic */
+    }
+    // Re-check env after attempting direct read
+    const apiEnvAfter = (process.env.CONGRESS_API_KEY || '').trim();
+    if (!apiEnvAfter) {
+      // Clear, non-sensitive error so logs show why we fell back
+      throw new Error('CONGRESS_API_KEY not present in process.env at runtime');
+    }
+  }
+  const API = (process.env.CONGRESS_API_KEY || '').trim();
   const base = 'https://api.congress.gov/v3/member';
 
   // Senators - Congress.gov API response has 'state' field, not 'stateCode'
@@ -133,8 +173,10 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
     // Debug: log raw congress.gov senator payload size and a small sample to diagnose filtering issues
     functions.logger.info('Congress.gov senators raw response', { rawCount: allSens.length, sampleKeys: allSens?.[0] ? Object.keys(allSens[0]) : null, sampleMember: allSens?.[0] ? { name: allSens[0].name, bioguide: allSens[0].bioguideId || allSens[0].bioguide_id } : null });
     // Filter by state field (can be 'state', 'stateCode', or nested in 'terms')
+    // Only include members with a current Senate term
     senators = allSens.filter((m: any) => {
       const term = getCurrentChamberTerm(m, 'Senate');
+      if (!term) return false; // skip if no Senate term found
       const rawState = term?.state || term?.stateCode || m.state || m.stateCode;
       let normalized: string | undefined;
       if (rawState) {
@@ -167,7 +209,9 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
   // House
   let house: any[] = [];
   if (congressional) {
-    const repUrl = `${base}?state=${encodeURIComponent(state)}&chamber=House&district=${encodeURIComponent(congressional)}&currentMember=true&limit=250&format=json&api_key=${API}`;
+    // Congress.gov API expects district as integer (7) not zero-padded string ("07")
+    const districtInt = parseInt(congressional, 10);
+    const repUrl = `${base}?state=${encodeURIComponent(state)}&chamber=House&district=${districtInt}&currentMember=true&limit=250&format=json&api_key=${API}`;
     const repResp = await fetch(repUrl);
     if (repResp.ok) {
       try {
@@ -180,15 +224,19 @@ async function fetchFederalFromCongressGov(state: string, congressional?: string
       functions.logger.info('Congress.gov representatives raw response', { rawCount: allReps.length, sampleKeys: allReps?.[0] ? Object.keys(allReps[0]) : null, sampleMember: allReps?.[0] ? { name: allReps[0].name, bioguide: allReps[0].bioguideId || allReps[0].bioguide_id } : null });
       house = allReps.filter((m: any) => {
         const term = getCurrentChamberTerm(m,'House of Representatives');
-        const rawState = term?.state || term?.stateCode || m.state || m.stateCode;
-        const rawDistrict = term?.district || m.district;
+        if (!term) return false; // skip if no House term found
+        // For House members, district is often at the top level, not in terms
+        const rawState = m.state || m.stateCode || term?.state || term?.stateCode;
+        const rawDistrict = m.district || term?.district;
         let normalizedState: string | undefined;
         if (rawState) {
-          if (rawState.length === 2) normalizedState = rawState.toUpperCase();
-          else normalizedState = STATE_NAME_TO_ABBR[rawState.toLowerCase().replace(/\./g,'').trim()];
+          if (typeof rawState === 'string' && rawState.length === 2) normalizedState = rawState.toUpperCase();
+          else if (typeof rawState === 'string') normalizedState = STATE_NAME_TO_ABBR[rawState.toLowerCase().replace(/\./g,'').trim()];
         }
-        const normalizedDistrict = rawDistrict ? String(rawDistrict).padStart(2,'0') : undefined;
-        return normalizedState === state && normalizedDistrict === String(congressional).padStart(2,'0');
+        // Normalize both to integers for comparison to handle "07" vs 7
+        const districtInt = rawDistrict != null ? parseInt(String(rawDistrict), 10) : null;
+        const expectedInt = congressional != null ? parseInt(String(congressional), 10) : null;
+        return normalizedState === state && districtInt === expectedInt;
       });
       if (!house.length) {
         const sample = allReps[0];
@@ -551,3 +599,41 @@ export const representatives = functions.runWith({ secrets: ['CONGRESS_API_KEY',
     normalizedInput: { line1: undefined, city: undefined, state: geo.state, zip: undefined },
   };
 });
+
+// Safe runtime diagnostic: attempt to access the secret via Secret Manager API and
+// log only success/failure (never the secret contents). This helps distinguish
+// between "env injection didn't happen" vs "service account lacks access" vs
+// "secret/version disabled".
+async function testSecretManagerAccess(secretId: string) {
+  const project = (process.env.GCLOUD_PROJECT || process.env.GCP_PROJECT || process.env.GCLOUD_PROJECT || 'represent-app-9978c').toString();
+  const name = `projects/${project}/secrets/${secretId}/versions/latest`;
+  try {
+    const auth = await google.auth.getClient({ scopes: ['https://www.googleapis.com/auth/cloud-platform'] });
+    const sm = google.secretmanager('v1');
+    // Intentionally do not inspect or log secret contents; only test access
+    await sm.projects.secrets.versions.access({ name, auth } as any);
+    functions.logger.info('secretManager.access', { secret: secretId, success: true, project });
+    return true;
+  } catch (err: any) {
+    functions.logger.warn('secretManager.access', { secret: secretId, success: false, project, error: err?.message });
+    return false;
+  }
+}
+
+// Read the secret value (last-resort). Returns string value or null on failure.
+async function getSecretValue(secretId: string): Promise<string | null> {
+  const project = (process.env.GCLOUD_PROJECT || process.env.GCP_PROJECT || 'represent-app-9978c').toString();
+  const name = `projects/${project}/secrets/${secretId}/versions/latest`;
+  try {
+    const auth = await google.auth.getClient({ scopes: ['https://www.googleapis.com/auth/cloud-platform'] });
+    const sm = google.secretmanager('v1');
+    const resp: any = await sm.projects.secrets.versions.access({ name, auth } as any);
+    const b64 = resp?.data?.payload?.data as string | undefined;
+    if (!b64) return null;
+    const buff = Buffer.from(b64, 'base64');
+    return buff.toString('utf8');
+  } catch (err: any) {
+    functions.logger.warn('getSecretValue failed', { secret: secretId, error: err?.message });
+    return null;
+  }
+}

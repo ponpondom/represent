@@ -1,0 +1,26 @@
+{
+  "name": "represent-functions",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions",
+    "lint": "echo 'no lint configured'",
+    "refresh-legislators": "node ./scripts/refresh-legislators.js"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^4.6.0",
+    "googleapis": "^144.0.0",
+    "represent": "file:.."
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.6.3"
+  },
+  "private": true
+}

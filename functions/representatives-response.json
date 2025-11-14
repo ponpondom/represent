@@ -1,0 +1,54 @@
+﻿{
+    "result":  {
+                   "officials":  [
+                                     {
+                                         "name":  "Mattie Hunter",
+                                         "party":  "Democratic",
+                                         "phones":  null,
+                                         "urls":  null,
+                                         "photoUrl":  "https://ilga.gov/images/members/{F4630DDB-11F0-417E-8C0A-B4ED6426116F}.jpg"
+                                     },
+                                     {
+                                         "name":  "Sonya Harper",
+                                         "party":  "Democratic",
+                                         "phones":  null,
+                                         "urls":  null,
+                                         "photoUrl":  "https://ilga.gov/images/members/{04C99384-69F8-4ACE-9E43-11E21CC5F820}.jpg"
+                                     }
+                                 ],
+                   "offices":  [
+                                   {
+                                       "name":  "State Senator",
+                                       "divisionId":  null,
+                                       "levels":  [
+                                                      "administrativeArea1"
+                                                  ],
+                                       "roles":  [
+                                                     "legislatorUpperBody"
+                                                 ],
+                                       "officialIndices":  [
+                                                               0
+                                                           ]
+                                   },
+                                   {
+                                       "name":  "State Representative",
+                                       "divisionId":  null,
+                                       "levels":  [
+                                                      "administrativeArea1"
+                                                  ],
+                                       "roles":  [
+                                                     "legislatorLowerBody"
+                                                 ],
+                                       "officialIndices":  [
+                                                               1
+                                                           ]
+                                   }
+                               ],
+                   "normalizedInput":  {
+                                           "line1":  null,
+                                           "city":  null,
+                                           "state":  "IL",
+                                           "zip":  null
+                                       }
+               }
+}

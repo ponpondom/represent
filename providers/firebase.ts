@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, type Auth } from 'firebase/auth';
 import { getFirestore, type Firestore } from 'firebase/firestore';
+import { getFunctions, type Functions } from 'firebase/functions';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyBIABAV4L9dC5gLzT7KXM6pvXItaQRaOf0',
@@ -18,5 +19,6 @@ const app = initializeApp(firebaseConfig);
 // configure it with the appropriate helper for your Firebase SDK/platform.
 const auth: Auth = getAuth(app);
 const db: Firestore = getFirestore(app);
+const functions: Functions = getFunctions(app);
 
-export { app, auth, db };
+export { app, auth, db, functions };
