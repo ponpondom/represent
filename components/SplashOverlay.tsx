@@ -2,9 +2,11 @@
 import { useRouter } from 'expo-router';
 import * as ExpoSplash from 'expo-splash-screen';
 import React, { useEffect, useRef, useState } from 'react';
-import { Animated, Text as RNText, StyleSheet, View } from 'react-native';
+import { Animated, Dimensions, Image, Text as RNText, StyleSheet, View } from 'react-native';
 import Svg, { Defs, G, LinearGradient, Path, Stop } from 'react-native-svg';
 import { GLYPH_PATH } from './representGlyphPath';
+
+const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 // Star particle type
 type Star = {
@@ -14,6 +16,142 @@ type Star = {
   opacity: Animated.Value;
   scale: Animated.Value;
   rotation: Animated.Value;
+};
+
+// Firework particle component
+const FireworkParticle = ({ delay, direction }: { delay: number; direction: 'left' | 'right' }) => {
+  const translateX = useRef(new Animated.Value(0)).current;
+  const translateY = useRef(new Animated.Value(0)).current;
+  const opacity = useRef(new Animated.Value(1)).current;
+
+  useEffect(() => {
+    const angle = Math.random() * Math.PI * 2;
+    const distance = 80 + Math.random() * 120;
+    
+    Animated.sequence([
+      Animated.delay(delay),
+      Animated.parallel([
+        Animated.timing(translateX, {
+          toValue: Math.cos(angle) * distance,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+        Animated.timing(translateY, {
+          toValue: Math.sin(angle) * distance,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+        Animated.timing(opacity, {
+          toValue: 0,
+          duration: 800,
+          useNativeDriver: true,
+        }),
+      ]),
+    ]).start();
+  }, [delay]);
+
+  return (
+    <Animated.View
+      style={[
+        styles.particle,
+        {
+          transform: [{ translateX }, { translateY }],
+          opacity,
+          backgroundColor: direction === 'left' ? '#E31C23' : '#223B7B',
+        },
+      ]}
+    />
+  );
+};
+
+// Firework component
+const Firework = ({ direction, delay }: { direction: 'left' | 'right'; delay: number }) => {
+  const startX = direction === 'left' ? screenWidth * 0.35 : screenWidth * 0.65;
+  const startY = screenHeight * 0.45;
+  const endX = direction === 'left' ? screenWidth * 0.15 : screenWidth * 0.85;
+  const endY = screenHeight * 0.15;
+  
+  // Calculate angle for rocket rotation
+  const deltaX = endX - startX;
+  const deltaY = endY - startY;
+  const angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI) + 90; // +90 because rocket points up by default
+
+  const translateX = useRef(new Animated.Value(0)).current;
+  const translateY = useRef(new Animated.Value(0)).current;
+  const starOpacity = useRef(new Animated.Value(0)).current;
+  const [showExplosion, setShowExplosion] = useState(false);
+
+  useEffect(() => {
+    Animated.sequence([
+      Animated.delay(delay),
+      Animated.parallel([
+        Animated.timing(starOpacity, {
+          toValue: 1,
+          duration: 0,
+          useNativeDriver: true,
+        }),
+        Animated.timing(translateX, {
+          toValue: endX - startX,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+        Animated.timing(translateY, {
+          toValue: endY - startY,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+      ]),
+    ]).start(() => {
+      setShowExplosion(true);
+      Animated.timing(starOpacity, {
+        toValue: 0,
+        duration: 100,
+        useNativeDriver: true,
+      }).start();
+    });
+  }, [delay, endX, endY, startX, startY, translateX, translateY, starOpacity]);
+
+  return (
+    <View style={styles.fireworkContainer}>
+      <Animated.View
+        style={[
+          styles.fireworkStar,
+          {
+            left: startX,
+            top: startY,
+            transform: [
+              { translateX }, 
+              { translateY },
+              { rotate: `${angle}deg` }
+            ],
+            opacity: starOpacity,
+          },
+        ]}
+      >
+        <Image 
+          source={require('@/assets/images/splash/rocket.png')} 
+          style={styles.rocketImage}
+          resizeMode="contain"
+        />
+      </Animated.View>
+      {showExplosion && (
+        <Animated.View
+          style={[
+            styles.explosion,
+            {
+              left: startX,
+              top: startY,
+              transform: [{ translateX }, { translateY }],
+            },
+          ]}
+        >
+          {[...Array(20)].map((_, i) => (
+            <FireworkParticle key={i} delay={i * 20} direction={direction} />
+          ))}
+        </Animated.View>
+      )}
+    </View>
+  );
 };
 
 export default function SplashOverlay(): React.ReactElement | null {
@@ -176,6 +314,10 @@ export default function SplashOverlay(): React.ReactElement | null {
 
   return (
     <Animated.View style={[styles.container, { opacity: overlayOpacity }]} pointerEvents="none">
+      {/* Fireworks */}
+      <Firework direction="left" delay={750} />
+      <Firework direction="right" delay={750} />
+      
       <Svg width={svgW} height={svgH} viewBox={`0 0 ${svgW} ${svgH}`}>
         <Defs>
           <LinearGradient id="logoGradient" x1="0" y1="0" x2="1" y2="1">
@@ -288,5 +430,32 @@ const styles = StyleSheet.create({
   starText: {
     fontSize: 24,
     color: '#FFD700',
+  },
+  fireworkContainer: {
+    ...StyleSheet.absoluteFillObject,
+    pointerEvents: 'none',
+  },
+  fireworkStar: {
+    position: 'absolute',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  fireworkStarText: {
+    fontSize: 24,
+  },
+  rocketImage: {
+    width: 40,
+    height: 40,
+  },
+  explosion: {
+    position: 'absolute',
+    width: 1,
+    height: 1,
+  },
+  particle: {
+    position: 'absolute',
+    width: 6,
+    height: 6,
+    borderRadius: 3,
   },
 });
