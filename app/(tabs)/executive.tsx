@@ -15,7 +15,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: 'https://www.whitehouse.gov/wp-content/uploads/2025/01/47_donald_j_trump.jpg',
+    photoUrl: undefined, // temporarily disabled due to image loading issues
   },
   {
     office: 'Vice President of the United States',
@@ -23,7 +23,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: 'https://www.vance.senate.gov/wp-content/uploads/2023/01/Vance-Official-Portrait-Web.jpg',
+    photoUrl: undefined, // temporarily disabled due to image loading issues
   },
 ];
 
@@ -34,8 +34,7 @@ const stateGovernors: Record<string, { governor: string; ltGovernor: string; par
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
-    governorPhoto: 'https://www2.illinois.gov/sites/gov/PublishingImages/about/govpritzker-headshot.jpg',
-    ltGovernorPhoto: 'https://www2.illinois.gov/sites/gov/PublishingImages/about/ltgov-stratton-headshot.jpg',
+    // governorPhoto and ltGovernorPhoto temporarily disabled due to image loading issues
   },
   // Add more states as needed
 };
