@@ -114,6 +114,7 @@ export default function ExecutiveScreen() {
                     <Image
                       source={{ uri: leader.photoUrl }}
                       style={styles.profileImage}
+                      onError={(e) => console.log('Image load error:', leader.name, leader.photoUrl, e.nativeEvent.error)}
                     />
                   )}
                   <View style={styles.cardInfo}>
@@ -147,6 +148,7 @@ export default function ExecutiveScreen() {
                       <Image
                         source={{ uri: stateGovernors[userState].governorPhoto }}
                         style={styles.profileImage}
+                        onError={(e) => console.log('Image load error (Governor):', stateGovernors[userState].governor, stateGovernors[userState].governorPhoto, e.nativeEvent.error)}
                       />
                     )}
                     <View style={styles.cardInfo}>
@@ -168,6 +170,7 @@ export default function ExecutiveScreen() {
                       <Image
                         source={{ uri: stateGovernors[userState].ltGovernorPhoto }}
                         style={styles.profileImage}
+                        onError={(e) => console.log('Image load error (Lt Gov):', stateGovernors[userState].ltGovernor, stateGovernors[userState].ltGovernorPhoto, e.nativeEvent.error)}
                       />
                     )}
                     <View style={styles.cardInfo}>
