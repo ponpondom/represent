@@ -1,118 +1,77 @@
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import { useAuth } from '@/providers/AuthProvider';
+import { db } from '@/providers/firebase';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
-import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { doc, getDoc } from 'firebase/firestore';
+import { useEffect, useState } from 'react';
+import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-// Executive branch leaders - static data since these change infrequently
-const executiveLeaders = [
+// Federal executive leaders
+const federalLeaders = [
   {
     office: 'President of the United States',
-    name: 'Joe Biden',
-    party: 'Democratic',
+    name: 'Donald Trump',
+    party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
   },
   {
     office: 'Vice President of the United States',
-    name: 'Kamala Harris',
-    party: 'Democratic',
+    name: 'JD Vance',
+    party: 'Republican',
     phone: '202-456-1414',
-    url: 'https://www.whitehouse.gov/administration/vice-president-harris/',
-  },
-  {
-    office: 'Secretary of State',
-    name: 'Antony Blinken',
-    party: 'Democratic',
-    url: 'https://www.state.gov',
-  },
-  {
-    office: 'Secretary of the Treasury',
-    name: 'Janet Yellen',
-    party: 'Democratic',
-    url: 'https://home.treasury.gov',
-  },
-  {
-    office: 'Secretary of Defense',
-    name: 'Lloyd Austin',
-    party: 'Democratic',
-    url: 'https://www.defense.gov',
-  },
-  {
-    office: 'Attorney General',
-    name: 'Merrick Garland',
-    party: 'Democratic',
-    url: 'https://www.justice.gov',
-  },
-  {
-    office: 'Secretary of the Interior',
-    name: 'Deb Haaland',
-    party: 'Democratic',
-    url: 'https://www.doi.gov',
-  },
-  {
-    office: 'Secretary of Agriculture',
-    name: 'Tom Vilsack',
-    party: 'Democratic',
-    url: 'https://www.usda.gov',
-  },
-  {
-    office: 'Secretary of Commerce',
-    name: 'Gina Raimondo',
-    party: 'Democratic',
-    url: 'https://www.commerce.gov',
-  },
-  {
-    office: 'Secretary of Labor',
-    name: 'Julie Su',
-    party: 'Democratic',
-    url: 'https://www.dol.gov',
-  },
-  {
-    office: 'Secretary of Health and Human Services',
-    name: 'Xavier Becerra',
-    party: 'Democratic',
-    url: 'https://www.hhs.gov',
-  },
-  {
-    office: 'Secretary of Housing and Urban Development',
-    name: 'Marcia Fudge',
-    party: 'Democratic',
-    url: 'https://www.hud.gov',
-  },
-  {
-    office: 'Secretary of Transportation',
-    name: 'Pete Buttigieg',
-    party: 'Democratic',
-    url: 'https://www.transportation.gov',
-  },
-  {
-    office: 'Secretary of Energy',
-    name: 'Jennifer Granholm',
-    party: 'Democratic',
-    url: 'https://www.energy.gov',
-  },
-  {
-    office: 'Secretary of Education',
-    name: 'Miguel Cardona',
-    party: 'Democratic',
-    url: 'https://www.ed.gov',
-  },
-  {
-    office: 'Secretary of Veterans Affairs',
-    name: 'Denis McDonough',
-    party: 'Democratic',
-    url: 'https://www.va.gov',
-  },
-  {
-    office: 'Secretary of Homeland Security',
-    name: 'Alejandro Mayorkas',
-    party: 'Democratic',
-    url: 'https://www.dhs.gov',
+    url: 'https://www.whitehouse.gov',
   },
 ];
 
+// State governors by state code
+const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string }> = {
+  IL: {
+    governor: 'JB Pritzker',
+    ltGovernor: 'Juliana Stratton',
+    party: 'Democratic',
+    url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
+  },
+  // Add more states as needed
+};
+
 export default function ExecutiveScreen() {
   const router = useRouter();
+  const { user } = useAuth();
+  const [loading, setLoading] = useState(true);
+  const [userState, setUserState] = useState<string>('');
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    loadUserState();
+  }, [user]);
+
+  const loadUserState = async () => {
+    if (!user) {
+      setError('Please log in to view your representatives');
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const profileDoc = await getDoc(doc(db, 'profiles', user.uid));
+      if (!profileDoc.exists()) {
+        setError('Please complete your profile');
+        setLoading(false);
+        return;
+      }
+
+      const profile = profileDoc.data();
+      setUserState(profile.state || '');
+      setError('');
+    } catch (err: any) {
+      console.error('Error loading profile:', err);
+      setError(err.message || 'Failed to load profile');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const openUrl = (url: string) => {
     Linking.openURL(url);
@@ -126,34 +85,73 @@ export default function ExecutiveScreen() {
       end={{ x: 1, y: 1 }}
       style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+        <TouchableOpacity onPress={() => router.push('/explore' as any)} style={styles.backButton}>
           <IconSymbol size={24} name="chevron.left" color="#1E40AF" />
           <Text style={styles.backText}>Back</Text>
         </TouchableOpacity>
 
         <Text style={styles.heading}>EXECUTIVE BRANCH LEADERS</Text>
 
-        {executiveLeaders.map((leader, index) => (
-          <View key={index} style={styles.card}>
-            <Text style={styles.office}>{leader.office}</Text>
-            <Text style={styles.name}>{leader.name}</Text>
-            {leader.party && (
-              <Text style={styles.party}>
-                {leader.party === 'Democratic' ? '(D)' : leader.party === 'Republican' ? '(R)' : `(${leader.party})`}
-              </Text>
-            )}
-            
-            {leader.phone && (
-              <Text style={styles.contact}>📞 {leader.phone}</Text>
-            )}
-            
-            {leader.url && (
-              <TouchableOpacity onPress={() => openUrl(leader.url)}>
-                <Text style={styles.link}>🌐 Visit Website</Text>
-              </TouchableOpacity>
-            )}
+        {loading ? (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator size="large" color="#1E40AF" />
+            <Text style={styles.loadingText}>Loading...</Text>
           </View>
-        ))}
+        ) : error ? (
+          <View style={styles.errorContainer}>
+            <Text style={styles.errorText}>{error}</Text>
+          </View>
+        ) : (
+          <>
+            {federalLeaders.map((leader, index) => (
+              <View key={index} style={styles.card}>
+                <Text style={styles.office}>{leader.office}</Text>
+                <Text style={styles.name}>{leader.name}</Text>
+                {leader.party && (
+                  <Text style={styles.party}>
+                    {leader.party === 'Democratic' ? '(D)' : leader.party === 'Republican' ? '(R)' : `(${leader.party})`}
+                  </Text>
+                )}
+                
+                {leader.phone && (
+                  <Text style={styles.contact}>📞 {leader.phone}</Text>
+                )}
+                
+                {leader.url && (
+                  <TouchableOpacity onPress={() => openUrl(leader.url)}>
+                    <Text style={styles.link}>🌐 Visit Website</Text>
+                  </TouchableOpacity>
+                )}
+              </View>
+            ))}
+
+            {userState && stateGovernors[userState] && (
+              <>
+                <View style={styles.card}>
+                  <Text style={styles.office}>Governor of {userState}</Text>
+                  <Text style={styles.name}>{stateGovernors[userState].governor}</Text>
+                  <Text style={styles.party}>
+                    {stateGovernors[userState].party === 'Democratic' ? '(D)' : '(R)'}
+                  </Text>
+                  <TouchableOpacity onPress={() => openUrl(stateGovernors[userState].url)}>
+                    <Text style={styles.link}>🌐 Visit Website</Text>
+                  </TouchableOpacity>
+                </View>
+
+                <View style={styles.card}>
+                  <Text style={styles.office}>Lieutenant Governor of {userState}</Text>
+                  <Text style={styles.name}>{stateGovernors[userState].ltGovernor}</Text>
+                  <Text style={styles.party}>
+                    {stateGovernors[userState].party === 'Democratic' ? '(D)' : '(R)'}
+                  </Text>
+                  <TouchableOpacity onPress={() => openUrl(stateGovernors[userState].url)}>
+                    <Text style={styles.link}>🌐 Visit Website</Text>
+                  </TouchableOpacity>
+                </View>
+              </>
+            )}
+          </>
+        )}
       </ScrollView>
     </LinearGradient>
   );
@@ -191,6 +189,26 @@ const styles = StyleSheet.create({
     textShadowColor: 'rgba(0, 0, 0, 0.6)',
     textShadowOffset: { width: 2, height: 2 },
     textShadowRadius: 6,
+  },
+  loadingContainer: {
+    padding: 40,
+    alignItems: 'center',
+  },
+  loadingText: {
+    marginTop: 16,
+    fontSize: 16,
+    color: '#1E40AF',
+  },
+  errorContainer: {
+    backgroundColor: '#FEE2E2',
+    padding: 24,
+    borderRadius: 12,
+    alignItems: 'center',
+  },
+  errorText: {
+    fontSize: 16,
+    color: '#DC2626',
+    textAlign: 'center',
   },
   card: {
     backgroundColor: '#F9FAFB',

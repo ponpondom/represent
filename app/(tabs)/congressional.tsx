@@ -61,7 +61,7 @@ export default function CongressionalScreen() {
       end={{ x: 1, y: 1 }}
       style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+        <TouchableOpacity onPress={() => router.push('/explore' as any)} style={styles.backButton}>
           <IconSymbol size={24} name="chevron.left" color="#1E40AF" />
           <Text style={styles.backText}>Back</Text>
         </TouchableOpacity>
