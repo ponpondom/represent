@@ -5,7 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 // Federal executive leaders
 const federalLeaders = [
@@ -15,6 +15,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
+    photoUrl: 'https://www.whitehouse.gov/wp-content/uploads/2021/01/47_donald_trump.jpg',
   },
   {
     office: 'Vice President of the United States',
@@ -22,16 +23,19 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
+    photoUrl: 'https://www.vance.senate.gov/wp-content/uploads/2023/01/Vance-Official-Portrait.jpg',
   },
 ];
 
 // State governors by state code
-const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string }> = {
+const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string; governorPhoto?: string; ltGovernorPhoto?: string }> = {
   IL: {
     governor: 'JB Pritzker',
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
+    governorPhoto: 'https://www2.illinois.gov/sites/gov/SiteCollectionImages/Gov-Pritzker-Official-Photo.jpg',
+    ltGovernorPhoto: 'https://www2.illinois.gov/sites/gov/SiteCollectionImages/Lt-Gov-Stratton-Official-Photo.jpg',
   },
   // Add more states as needed
 };
@@ -105,13 +109,23 @@ export default function ExecutiveScreen() {
           <>
             {federalLeaders.map((leader, index) => (
               <View key={index} style={styles.card}>
-                <Text style={styles.office}>{leader.office}</Text>
-                <Text style={styles.name}>{leader.name}</Text>
-                {leader.party && (
-                  <Text style={styles.party}>
-                    {leader.party === 'Democratic' ? '(D)' : leader.party === 'Republican' ? '(R)' : `(${leader.party})`}
-                  </Text>
-                )}
+                <View style={styles.cardHeader}>
+                  {leader.photoUrl && (
+                    <Image
+                      source={{ uri: leader.photoUrl }}
+                      style={styles.profileImage}
+                    />
+                  )}
+                  <View style={styles.cardInfo}>
+                    <Text style={styles.office}>{leader.office}</Text>
+                    <Text style={styles.name}>{leader.name}</Text>
+                    {leader.party && (
+                      <Text style={styles.party}>
+                        {leader.party === 'Democratic' ? '(D)' : leader.party === 'Republican' ? '(R)' : `(${leader.party})`}
+                      </Text>
+                    )}
+                  </View>
+                </View>
                 
                 {leader.phone && (
                   <Text style={styles.contact}>📞 {leader.phone}</Text>
@@ -128,22 +142,42 @@ export default function ExecutiveScreen() {
             {userState && stateGovernors[userState] && (
               <>
                 <View style={styles.card}>
-                  <Text style={styles.office}>Governor of {userState}</Text>
-                  <Text style={styles.name}>{stateGovernors[userState].governor}</Text>
-                  <Text style={styles.party}>
-                    {stateGovernors[userState].party === 'Democratic' ? '(D)' : '(R)'}
-                  </Text>
+                  <View style={styles.cardHeader}>
+                    {stateGovernors[userState].governorPhoto && (
+                      <Image
+                        source={{ uri: stateGovernors[userState].governorPhoto }}
+                        style={styles.profileImage}
+                      />
+                    )}
+                    <View style={styles.cardInfo}>
+                      <Text style={styles.office}>Governor of {userState}</Text>
+                      <Text style={styles.name}>{stateGovernors[userState].governor}</Text>
+                      <Text style={styles.party}>
+                        {stateGovernors[userState].party === 'Democratic' ? '(D)' : '(R)'}
+                      </Text>
+                    </View>
+                  </View>
                   <TouchableOpacity onPress={() => openUrl(stateGovernors[userState].url)}>
                     <Text style={styles.link}>🌐 Visit Website</Text>
                   </TouchableOpacity>
                 </View>
 
                 <View style={styles.card}>
-                  <Text style={styles.office}>Lieutenant Governor of {userState}</Text>
-                  <Text style={styles.name}>{stateGovernors[userState].ltGovernor}</Text>
-                  <Text style={styles.party}>
-                    {stateGovernors[userState].party === 'Democratic' ? '(D)' : '(R)'}
-                  </Text>
+                  <View style={styles.cardHeader}>
+                    {stateGovernors[userState].ltGovernorPhoto && (
+                      <Image
+                        source={{ uri: stateGovernors[userState].ltGovernorPhoto }}
+                        style={styles.profileImage}
+                      />
+                    )}
+                    <View style={styles.cardInfo}>
+                      <Text style={styles.office}>Lieutenant Governor of {userState}</Text>
+                      <Text style={styles.name}>{stateGovernors[userState].ltGovernor}</Text>
+                      <Text style={styles.party}>
+                        {stateGovernors[userState].party === 'Democratic' ? '(D)' : '(R)'}
+                      </Text>
+                    </View>
+                  </View>
                   <TouchableOpacity onPress={() => openUrl(stateGovernors[userState].url)}>
                     <Text style={styles.link}>🌐 Visit Website</Text>
                   </TouchableOpacity>
@@ -222,6 +256,21 @@ const styles = StyleSheet.create({
     elevation: 5,
     borderLeftWidth: 4,
     borderLeftColor: '#1E40AF',
+  },
+  cardHeader: {
+    flexDirection: 'row',
+    marginBottom: 12,
+  },
+  profileImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    marginRight: 16,
+    backgroundColor: '#E5E7EB',
+  },
+  cardInfo: {
+    flex: 1,
+    justifyContent: 'center',
   },
   office: {
     fontSize: 14,

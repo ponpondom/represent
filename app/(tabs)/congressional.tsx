@@ -6,7 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function CongressionalScreen() {
   const { user } = useAuth();
@@ -83,13 +83,24 @@ export default function CongressionalScreen() {
         ) : (
           representatives.map((rep, index) => (
             <View key={index} style={styles.card}>
-              <Text style={styles.office}>{rep.office}</Text>
-              <Text style={styles.name}>{rep.name}</Text>
-              {rep.party && (
-                <Text style={styles.party}>
-                  {rep.party === 'Democratic' ? '(D)' : rep.party === 'Republican' ? '(R)' : `(${rep.party})`}
-                </Text>
-              )}
+              <View style={styles.cardHeader}>
+                {rep.photoUrl && (
+                  <Image
+                    source={{ uri: rep.photoUrl }}
+                    style={styles.profileImage}
+                    defaultSource={require('@/assets/images/react-logo.png')}
+                  />
+                )}
+                <View style={styles.cardInfo}>
+                  <Text style={styles.office}>{rep.office}</Text>
+                  <Text style={styles.name}>{rep.name}</Text>
+                  {rep.party && (
+                    <Text style={styles.party}>
+                      {rep.party === 'Democratic' ? '(D)' : rep.party === 'Republican' ? '(R)' : `(${rep.party})`}
+                    </Text>
+                  )}
+                </View>
+              </View>
               
               {rep.phones && rep.phones.length > 0 && (
                 <Text style={styles.contact}>📞 {rep.phones[0]}</Text>
@@ -184,6 +195,21 @@ const styles = StyleSheet.create({
     elevation: 5,
     borderLeftWidth: 4,
     borderLeftColor: '#1E40AF',
+  },
+  cardHeader: {
+    flexDirection: 'row',
+    marginBottom: 12,
+  },
+  profileImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    marginRight: 16,
+    backgroundColor: '#E5E7EB',
+  },
+  cardInfo: {
+    flex: 1,
+    justifyContent: 'center',
   },
   office: {
     fontSize: 14,
