@@ -29,14 +29,12 @@ const federalLeaders = [
 ];
 
 // State governors by state code
-const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string; governorPhoto?: any; ltGovernorPhoto?: any }> = {
+const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string }> = {
   IL: {
     governor: 'JB Pritzker',
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
-    governorPhoto: require('@/assets/images/executive/pritzker.jpg'),
-    ltGovernorPhoto: require('@/assets/images/executive/stratton.jpg'),
   },
   // Add more states as needed
 };
@@ -144,7 +142,6 @@ export default function ExecutiveScreen() {
                 <View style={styles.card}>
                   <View style={styles.cardHeader}>
                     <ProfileImage
-                      source={stateGovernors[userState].governorPhoto}
                       name={stateGovernors[userState].governor}
                       size={80}
                     />
@@ -164,7 +161,6 @@ export default function ExecutiveScreen() {
                 <View style={styles.card}>
                   <View style={styles.cardHeader}>
                     <ProfileImage
-                      source={stateGovernors[userState].ltGovernorPhoto}
                       name={stateGovernors[userState].ltGovernor}
                       size={80}
                     />
