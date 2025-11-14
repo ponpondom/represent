@@ -1,3 +1,4 @@
+import { ProfileImage } from '@/components/ProfileImage';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useAuth } from '@/providers/AuthProvider';
 import { db } from '@/providers/firebase';
@@ -6,7 +7,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function CongressionalScreen() {
   const { user } = useAuth();
@@ -85,13 +86,11 @@ export default function CongressionalScreen() {
           representatives.map((rep, index) => (
             <View key={index} style={styles.card}>
               <View style={styles.cardHeader}>
-                {rep.photoUrl && (
-                  <Image
-                    source={{ uri: rep.photoUrl }}
-                    style={styles.profileImage}
-                    onError={(e) => console.log('Image load error:', rep.name, rep.photoUrl, e.nativeEvent.error)}
-                  />
-                )}
+                <ProfileImage
+                  source={rep.photoUrl ? { uri: rep.photoUrl } : undefined}
+                  name={rep.name}
+                  size={80}
+                />
                 <View style={styles.cardInfo}>
                   <Text style={styles.office}>{rep.office}</Text>
                   <Text style={styles.name}>{rep.name}</Text>

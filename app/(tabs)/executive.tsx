@@ -1,3 +1,4 @@
+import { ProfileImage } from '@/components/ProfileImage';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useAuth } from '@/providers/AuthProvider';
 import { db } from '@/providers/firebase';
@@ -5,7 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 // Federal executive leaders
 const federalLeaders = [
@@ -15,7 +16,6 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photo: require('@/assets/images/executive/trump.jpg'),
   },
   {
     office: 'Vice President of the United States',
@@ -23,19 +23,16 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photo: require('@/assets/images/executive/vance.jpg'),
   },
 ];
 
 // State governors by state code
-const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string; governorPhoto?: any; ltGovernorPhoto?: any }> = {
+const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string }> = {
   IL: {
     governor: 'JB Pritzker',
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
-    governorPhoto: require('@/assets/images/executive/pritzker.jpg'),
-    ltGovernorPhoto: require('@/assets/images/executive/stratton.jpg'),
   },
   // Add more states as needed
 };
@@ -110,12 +107,10 @@ export default function ExecutiveScreen() {
             {federalLeaders.map((leader, index) => (
               <View key={index} style={styles.card}>
                 <View style={styles.cardHeader}>
-                  {leader.photo && (
-                    <Image
-                      source={leader.photo}
-                      style={styles.profileImage}
-                    />
-                  )}
+                  <ProfileImage
+                    name={leader.name}
+                    size={80}
+                  />
                   <View style={styles.cardInfo}>
                     <Text style={styles.office}>{leader.office}</Text>
                     <Text style={styles.name}>{leader.name}</Text>
@@ -143,12 +138,10 @@ export default function ExecutiveScreen() {
               <>
                 <View style={styles.card}>
                   <View style={styles.cardHeader}>
-                    {stateGovernors[userState].governorPhoto && (
-                      <Image
-                        source={stateGovernors[userState].governorPhoto}
-                        style={styles.profileImage}
-                      />
-                    )}
+                    <ProfileImage
+                      name={stateGovernors[userState].governor}
+                      size={80}
+                    />
                     <View style={styles.cardInfo}>
                       <Text style={styles.office}>Governor of {userState}</Text>
                       <Text style={styles.name}>{stateGovernors[userState].governor}</Text>
@@ -164,12 +157,10 @@ export default function ExecutiveScreen() {
 
                 <View style={styles.card}>
                   <View style={styles.cardHeader}>
-                    {stateGovernors[userState].ltGovernorPhoto && (
-                      <Image
-                        source={stateGovernors[userState].ltGovernorPhoto}
-                        style={styles.profileImage}
-                      />
-                    )}
+                    <ProfileImage
+                      name={stateGovernors[userState].ltGovernor}
+                      size={80}
+                    />
                     <View style={styles.cardInfo}>
                       <Text style={styles.office}>Lieutenant Governor of {userState}</Text>
                       <Text style={styles.name}>{stateGovernors[userState].ltGovernor}</Text>
