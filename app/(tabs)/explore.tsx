@@ -1,60 +1,10 @@
-﻿import { useAuth } from '@/providers/AuthProvider';
-import { db } from '@/providers/firebase';
-import { getRepresentativesByAddress, type Representative } from '@/services/civic';
+﻿import { IconSymbol } from '@/components/ui/IconSymbol';
 import { LinearGradient } from 'expo-linear-gradient';
-import { doc, getDoc } from 'firebase/firestore';
-import { useEffect, useState } from 'react';
-import { ActivityIndicator, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-
-// Replacing mock data with real Google Civic API integration
+import { useRouter } from 'expo-router';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function MyRepsScreen() {
-  const { user } = useAuth();
-  const [loading, setLoading] = useState(true);
-  const [representatives, setRepresentatives] = useState<Representative[]>([]);
-  const [address, setAddress] = useState('');
-  const [error, setError] = useState('');
-  const [normalizedAddress, setNormalizedAddress] = useState<string | undefined>(undefined);
-
-  useEffect(() => {
-    loadRepresentatives();
-  }, [user]);
-
-  const loadRepresentatives = async () => {
-    if (!user) {
-      setError('Please log in to view your representatives');
-      setLoading(false);
-      return;
-    }
-
-    try {
-      const profileDoc = await getDoc(doc(db, 'profiles', user.uid));
-      if (!profileDoc.exists()) {
-        setError('Please complete your profile with your address');
-        setLoading(false);
-        return;
-      }
-
-      const profile = profileDoc.data();
-      const fullAddress = `${profile.address}, ${profile.city}, ${profile.state} ${profile.zipCode}`;
-      setAddress(fullAddress);
-
-      // Fetch representatives from Google Civic API
-      const { representatives: reps, normalizedAddress } = await getRepresentativesByAddress(fullAddress);
-      setNormalizedAddress(normalizedAddress);
-      setRepresentatives(reps);
-      setError('');
-    } catch (err: any) {
-      console.error('Error loading representatives:', err);
-      setError(err.message || 'Failed to load representatives');
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const openUrl = (url: string) => {
-    Linking.openURL(url);
-  };
+  const router = useRouter();
 
   return (
     <LinearGradient
@@ -63,49 +13,36 @@ export default function MyRepsScreen() {
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 1 }}
       style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContent}>
-        <Text style={styles.heading}>REPRESENTATIVES</Text>
+      <View style={styles.content}>
+        <Text style={styles.heading}>MY REPRESENTATIVES</Text>
+        <Text style={styles.subtitle}>Choose a category to view your leaders</Text>
 
-        {!!(normalizedAddress || address) && (
-          <Text style={styles.address}>For: {normalizedAddress || address}</Text>
-        )}
+        <TouchableOpacity 
+          style={styles.bubble}
+          onPress={() => router.push('/executive' as any)}
+          activeOpacity={0.8}>
+          <View style={styles.bubbleIconContainer}>
+            <IconSymbol size={48} name="flag.fill" color="#FFFFFF" />
+          </View>
+          <Text style={styles.bubbleTitle}>Executive Branch</Text>
+          <Text style={styles.bubbleDescription}>
+            President, Vice President, and Cabinet Members
+          </Text>
+        </TouchableOpacity>
 
-        {loading ? (
-          <View style={styles.loadingContainer}>
-            <ActivityIndicator size="large" color="#1E40AF" />
-            <Text style={styles.loadingText}>Loading your representatives...</Text>
+        <TouchableOpacity 
+          style={styles.bubble}
+          onPress={() => router.push('/congressional' as any)}
+          activeOpacity={0.8}>
+          <View style={styles.bubbleIconContainer}>
+            <IconSymbol size={48} name="building.columns.fill" color="#FFFFFF" />
           </View>
-        ) : error ? (
-          <View style={styles.errorContainer}>
-            <Text style={styles.errorText}>{error}</Text>
-            <TouchableOpacity onPress={loadRepresentatives} style={styles.retryButton}>
-              <Text style={styles.retryButtonText}>Retry</Text>
-            </TouchableOpacity>
-          </View>
-        ) : (
-          representatives.map((rep, index) => (
-            <View key={index} style={styles.card}>
-              <Text style={styles.office}>{rep.office}</Text>
-              <Text style={styles.name}>{rep.name}</Text>
-              {rep.party && (
-                <Text style={styles.party}>
-                  {rep.party === 'Democratic' ? '(D)' : rep.party === 'Republican' ? '(R)' : `(${rep.party})`}
-                </Text>
-              )}
-              
-              {rep.phones && rep.phones.length > 0 && (
-                <Text style={styles.contact}> {rep.phones[0]}</Text>
-              )}
-              
-              {rep.urls && rep.urls.length > 0 && (
-                <TouchableOpacity onPress={() => openUrl(rep.urls![0])}>
-                  <Text style={styles.link}> Visit Website</Text>
-                </TouchableOpacity>
-              )}
-            </View>
-          ))
-        )}
-      </ScrollView>
+          <Text style={styles.bubbleTitle}>Congressional Representatives</Text>
+          <Text style={styles.bubbleDescription}>
+            Your US Senators, House Representative, and State Legislators
+          </Text>
+        </TouchableOpacity>
+      </View>
     </LinearGradient>
   );
 }
@@ -114,10 +51,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  scrollContent: {
+  content: {
+    flex: 1,
     padding: 20,
-    paddingTop: 60,
-    paddingBottom: 100,
+    paddingTop: 80,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
   },
   heading: {
     fontSize: 36,
@@ -131,84 +70,48 @@ const styles = StyleSheet.create({
     textShadowOffset: { width: 2, height: 2 },
     textShadowRadius: 6,
   },
-  address: {
-    fontSize: 14,
-    color: '#1E40AF',
-    textAlign: 'center',
-    marginBottom: 24,
-    fontWeight: '600',
-  },
-  loadingContainer: {
-    padding: 40,
-    alignItems: 'center',
-  },
-  loadingText: {
-    marginTop: 16,
+  subtitle: {
     fontSize: 16,
     color: '#1E40AF',
-  },
-  errorContainer: {
-    backgroundColor: '#FEE2E2',
-    padding: 24,
-    borderRadius: 12,
-    alignItems: 'center',
-  },
-  errorText: {
-    fontSize: 16,
-    color: '#DC2626',
     textAlign: 'center',
-    marginBottom: 16,
-  },
-  retryButton: {
-    backgroundColor: '#1E40AF',
-    paddingHorizontal: 24,
-    paddingVertical: 12,
-    borderRadius: 8,
-  },
-  retryButtonText: {
-    color: '#FFFFFF',
+    marginBottom: 40,
     fontWeight: '600',
   },
-  card: {
-    backgroundColor: '#F9FAFB',
-    padding: 20,
-    borderRadius: 16,
-    marginBottom: 16,
+  bubble: {
+    width: '100%',
+    backgroundColor: '#FFFFFF',
+    borderRadius: 24,
+    padding: 32,
+    marginBottom: 20,
+    alignItems: 'center',
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.15,
-    shadowRadius: 8,
-    elevation: 5,
-    borderLeftWidth: 4,
-    borderLeftColor: '#1E40AF',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.2,
+    shadowRadius: 12,
+    elevation: 8,
+    borderWidth: 3,
+    borderColor: '#1E40AF',
   },
-  office: {
-    fontSize: 14,
-    color: '#6B7280',
-    fontWeight: '600',
-    marginBottom: 4,
-    textTransform: 'uppercase',
+  bubbleIconContainer: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    backgroundColor: '#1E40AF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 16,
   },
-  name: {
-    fontSize: 20,
+  bubbleTitle: {
+    fontSize: 22,
     fontWeight: '700',
     color: '#1E40AF',
-    marginBottom: 4,
-  },
-  party: {
-    fontSize: 16,
-    color: '#374151',
-    marginBottom: 12,
-  },
-  contact: {
-    fontSize: 15,
-    color: '#374151',
     marginBottom: 8,
+    textAlign: 'center',
   },
-  link: {
+  bubbleDescription: {
     fontSize: 15,
-    color: '#1E40AF',
-    fontWeight: '600',
-    textDecorationLine: 'underline',
+    color: '#374151',
+    textAlign: 'center',
+    lineHeight: 22,
   },
 });
