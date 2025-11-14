@@ -15,7 +15,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: undefined, // temporarily disabled due to image loading issues
+    photoUrl: 'https://cdn.britannica.com/93/234593-050-32F1E431/Donald-Trump-2023.jpg',
   },
   {
     office: 'Vice President of the United States',
@@ -23,7 +23,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: undefined, // temporarily disabled due to image loading issues
+    photoUrl: 'https://cdn.britannica.com/37/268237-050-8E92E0A1/JD-Vance-2024.jpg',
   },
 ];
 
@@ -34,7 +34,8 @@ const stateGovernors: Record<string, { governor: string; ltGovernor: string; par
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
-    // governorPhoto and ltGovernorPhoto temporarily disabled due to image loading issues
+    governorPhoto: 'https://cdn.britannica.com/85/228485-050-3C0A0C29/JB-Pritzker-2021.jpg',
+    ltGovernorPhoto: 'https://i.imgur.com/placeholder.jpg', // Placeholder - Britannica doesn't have Stratton
   },
   // Add more states as needed
 };
