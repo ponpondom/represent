@@ -16,6 +16,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
+    photo: require('@/assets/images/executive/trump.jpg'),
   },
   {
     office: 'Vice President of the United States',
@@ -23,16 +24,19 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
+    photo: require('@/assets/images/executive/vance.jpg'),
   },
 ];
 
 // State governors by state code
-const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string }> = {
+const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string; governorPhoto?: any; ltGovernorPhoto?: any }> = {
   IL: {
     governor: 'JB Pritzker',
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
+    governorPhoto: require('@/assets/images/executive/pritzker.jpg'),
+    ltGovernorPhoto: require('@/assets/images/executive/stratton.jpg'),
   },
   // Add more states as needed
 };
@@ -108,6 +112,7 @@ export default function ExecutiveScreen() {
               <View key={index} style={styles.card}>
                 <View style={styles.cardHeader}>
                   <ProfileImage
+                    source={(leader as any).photo}
                     name={leader.name}
                     size={80}
                   />
@@ -139,6 +144,7 @@ export default function ExecutiveScreen() {
                 <View style={styles.card}>
                   <View style={styles.cardHeader}>
                     <ProfileImage
+                      source={stateGovernors[userState].governorPhoto}
                       name={stateGovernors[userState].governor}
                       size={80}
                     />
@@ -158,6 +164,7 @@ export default function ExecutiveScreen() {
                 <View style={styles.card}>
                   <View style={styles.cardHeader}>
                     <ProfileImage
+                      source={stateGovernors[userState].ltGovernorPhoto}
                       name={stateGovernors[userState].ltGovernor}
                       size={80}
                     />
