@@ -15,7 +15,7 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: 'https://cdn.britannica.com/93/234593-050-32F1E431/Donald-Trump-2023.jpg',
+    photo: require('@/assets/images/executive/trump.jpg'),
   },
   {
     office: 'Vice President of the United States',
@@ -23,19 +23,19 @@ const federalLeaders = [
     party: 'Republican',
     phone: '202-456-1414',
     url: 'https://www.whitehouse.gov',
-    photoUrl: 'https://cdn.britannica.com/37/268237-050-8E92E0A1/JD-Vance-2024.jpg',
+    photo: require('@/assets/images/executive/vance.jpg'),
   },
 ];
 
 // State governors by state code
-const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string; governorPhoto?: string; ltGovernorPhoto?: string }> = {
+const stateGovernors: Record<string, { governor: string; ltGovernor: string; party: string; url: string; governorPhoto?: any; ltGovernorPhoto?: any }> = {
   IL: {
     governor: 'JB Pritzker',
     ltGovernor: 'Juliana Stratton',
     party: 'Democratic',
     url: 'https://www2.illinois.gov/sites/gov/Pages/default.aspx',
-    governorPhoto: 'https://cdn.britannica.com/85/228485-050-3C0A0C29/JB-Pritzker-2021.jpg',
-    ltGovernorPhoto: 'https://i.imgur.com/placeholder.jpg', // Placeholder - Britannica doesn't have Stratton
+    governorPhoto: require('@/assets/images/executive/pritzker.jpg'),
+    ltGovernorPhoto: require('@/assets/images/executive/stratton.jpg'),
   },
   // Add more states as needed
 };
@@ -110,11 +110,10 @@ export default function ExecutiveScreen() {
             {federalLeaders.map((leader, index) => (
               <View key={index} style={styles.card}>
                 <View style={styles.cardHeader}>
-                  {leader.photoUrl && (
+                  {leader.photo && (
                     <Image
-                      source={{ uri: leader.photoUrl }}
+                      source={leader.photo}
                       style={styles.profileImage}
-                      onError={(e) => console.log('Image load error:', leader.name, leader.photoUrl, e.nativeEvent.error)}
                     />
                   )}
                   <View style={styles.cardInfo}>
@@ -146,9 +145,8 @@ export default function ExecutiveScreen() {
                   <View style={styles.cardHeader}>
                     {stateGovernors[userState].governorPhoto && (
                       <Image
-                        source={{ uri: stateGovernors[userState].governorPhoto }}
+                        source={stateGovernors[userState].governorPhoto}
                         style={styles.profileImage}
-                        onError={(e) => console.log('Image load error (Governor):', stateGovernors[userState].governor, stateGovernors[userState].governorPhoto, e.nativeEvent.error)}
                       />
                     )}
                     <View style={styles.cardInfo}>
@@ -168,9 +166,8 @@ export default function ExecutiveScreen() {
                   <View style={styles.cardHeader}>
                     {stateGovernors[userState].ltGovernorPhoto && (
                       <Image
-                        source={{ uri: stateGovernors[userState].ltGovernorPhoto }}
+                        source={stateGovernors[userState].ltGovernorPhoto}
                         style={styles.profileImage}
-                        onError={(e) => console.log('Image load error (Lt Gov):', stateGovernors[userState].ltGovernor, stateGovernors[userState].ltGovernorPhoto, e.nativeEvent.error)}
                       />
                     )}
                     <View style={styles.cardInfo}>
