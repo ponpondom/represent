@@ -39,6 +39,7 @@ export default function CongressionalScreen() {
 
       // Fetch representatives from Google Civic API
       const { representatives: reps } = await getRepresentativesByAddress(fullAddress);
+      console.log('Representatives data:', reps.map(r => ({ name: r.name, photoUrl: r.photoUrl })));
       setRepresentatives(reps);
       setError('');
     } catch (err: any) {
@@ -88,7 +89,7 @@ export default function CongressionalScreen() {
                   <Image
                     source={{ uri: rep.photoUrl }}
                     style={styles.profileImage}
-                    defaultSource={require('@/assets/images/react-logo.png')}
+                    onError={(e) => console.log('Image load error:', rep.name, rep.photoUrl, e.nativeEvent.error)}
                   />
                 )}
                 <View style={styles.cardInfo}>
